@@ -1,0 +1,75 @@
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Local configuration
+local.properties
+
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Generated files
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing files
+*.jks
+*.keystore
+*.pem
+
+# Log files
+*.log
+
+# Android generated
+bin/
+gen/
+out/
+
+# APK / Bundle outputs
+*.apk
+*.aab
+*.ap_
+output.json
+
+# Dex / compiled files
+*.dex
+*.class
+
+# Java crash logs
+hs_err_pid*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Kotlin
+.kotlin/
+
+# Firebase / Google Services (optional)
+# Uncomment jika tidak ingin upload config Firebase
+# google-services.json
+# serviceAccountKey.json
+
+# NDK
+obj/
+
+# Temporary files
+*.tmp
+*.temp
+
+# VS Code
+.vscode/
+
+# Mac
+*.swp
+
+# Emulator
+*.hprof
+
+# Caches
+.cache/

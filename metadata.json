@@ -1,0 +1,6 @@
+{
+  "name": "V-Pad Controller",
+  "description": "High-speed virtual game controller for PC gaming with low-latency Wi-Fi and USB, analog sticks, action buttons, dynamic gyroscope controls, and diagnostic tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

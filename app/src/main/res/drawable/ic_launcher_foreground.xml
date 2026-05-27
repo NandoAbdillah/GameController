@@ -1,0 +1,48 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer controller body with beautiful glowing cyberpunk cyan stroke -->
+    <path
+        android:pathData="M30,36 L78,36 C86,36 92,42 92,50 C92,62 82,72 70,72 L64,72 L58,66 L50,66 L44,72 L38,72 C26,72 16,62 16,50 C16,42 22,36 30,36 Z"
+        android:fillColor="#00E5FF" />
+        
+    <!-- Inner grip detail and darker main control surface -->
+    <path
+        android:pathData="M32,39 L76,39 C82,39 87,43 87,49 C87,58 79,66 69,66 L61,66 L56,61 L52,61 L47,66 L39,66 C29,66 21,58 21,49 C21,43 26,39 32,39 Z"
+        android:fillColor="#121214" />
+        
+    <!-- Directional Pad (D-pad) on the Left -->
+    <path
+        android:pathData="M31,52 L35,52 L35,48 L38,48 L38,52 L42,52 L42,55 L38,55 L38,59 L35,59 L35,55 L31,55 Z"
+        android:fillColor="#BB86FC" />
+        
+    <!-- Face button clusters on the Right (A B X Y glowing purple/cyan dots) -->
+    <!-- X/Y/A/B Buttons -->
+    <path
+        android:pathData="M66,54 A1.8,1.8 0 1,1 62.4,54 A1.8,1.8 0 1,1 66,54 Z"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M71,49 C72,49 72.8,49.8 72.8,50.8 C72.8,51.8 72,52.6 71,52.6 C70,52.6 69.2,51.8 69.2,50.8 C69.2,49.8 70,49 71,49 Z"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M71,56.2 C72.2,56.2 73,57 73,58 C73,59 72.2,59.8 71,59.8 C69.8,59.8 69,59 69,58 C69,57 69.8,56.2 71,56.2 Z"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M76,54 A1.8,1.8 0 1,1 72.4,54 A1.8,1.8 0 1,1 76,54 Z"
+        android:fillColor="#00E5FF" />
+        
+    <!-- Dynamic slitted center lines -->
+    <path
+        android:pathData="M48,51 L51,47"
+        android:strokeColor="#BB86FC"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M55,51 L58,47"
+        android:strokeColor="#BB86FC"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+</vector>
